@@ -8,7 +8,6 @@ const setUp = (props = {}) => {
     return shallow(<Header  {...props} />);
 }
 
-
 describe('Header Component', () => {
 
     let component;
