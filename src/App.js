@@ -35,7 +35,7 @@ class App extends Component {
     }
 
     return (
-      <div className="App">
+      <div className="App"  data-test="appComponent">
         <Header />
         <Headline header={'Posts'} desc='Click the button to see the posts' tempArr={tempArr} />
         <SharedButton {...configButton} />
